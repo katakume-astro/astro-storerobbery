@@ -23,7 +23,6 @@ shared_scripts {
 
 dependencies {
     'oxmysql',
-    'Astro-NotifySystem',
     'ox_lib',
     'ox_target',
     'es_extended'
