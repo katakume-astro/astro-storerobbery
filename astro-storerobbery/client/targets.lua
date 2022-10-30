@@ -8,7 +8,7 @@ exports.ox_target:addBoxZone({
 			icon = 'fa-solid fa-lock',
 			label = "Okdranij kasetke",
 			event = "napadnaskleprozpocznijclient",
-            item = "lockpick",
+            items = "lockpick",
 		}
 	},
 })
@@ -23,7 +23,7 @@ exports.ox_target:addBoxZone({
 			icon = 'fa-solid fa-lock',
 			label = "Okdranij kasetke",
 			event = "napadnaskleprozpocznijclient",
-            item = "lockpick",
+            items = "lockpick",
 		}
 	},
 })
@@ -38,7 +38,7 @@ exports.ox_target:addBoxZone({
 			icon = 'fa-solid fa-lock',
 			label = "Okdranij kasetke",
 			event = "napadnaskleprozpocznijclient",
-            item = "lockpick",
+            items = "lockpick",
 		}
 	},
 })
@@ -53,7 +53,7 @@ exports.ox_target:addBoxZone({
 			icon = 'fa-solid fa-lock',
 			label = "Okdranij kasetke",
 			event = "napadnaskleprozpocznijclient",
-            item = "lockpick",
+            items = "lockpick",
 		}
 	},
 })
@@ -68,7 +68,7 @@ exports.ox_target:addBoxZone({
 			icon = 'fa-solid fa-lock',
 			label = "Okdranij kasetke",
 			event = "napadnaskleprozpocznijclient",
-            item = "lockpick",
+            items = "lockpick",
 		}
 	},
 })
@@ -83,7 +83,7 @@ exports.ox_target:addBoxZone({
 			icon = 'fa-solid fa-lock',
 			label = "Okdranij kasetke",
 			event = "napadnaskleprozpocznijclient",
-            item = "lockpick",
+            items = "lockpick",
 		}
 	},
 })
@@ -98,7 +98,7 @@ exports.ox_target:addBoxZone({
 			icon = 'fa-solid fa-lock',
 			label = "Okdranij kasetke",
 			event = "napadnaskleprozpocznijclient",
-            item = "lockpick",
+            items = "lockpick",
 		}
 	},
 })
@@ -113,7 +113,7 @@ exports.ox_target:addBoxZone({
 			icon = 'fa-solid fa-lock',
 			label = "Okdranij kasetke",
 			event = "napadnaskleprozpocznijclient",
-            item = "lockpick",
+            items = "lockpick",
 		}
 	},
 })
@@ -128,7 +128,7 @@ exports.ox_target:addBoxZone({
 			icon = 'fa-solid fa-lock',
 			label = "Okdranij kasetke",
 			event = "napadnaskleprozpocznijclient",
-            item = "lockpick",
+            items = "lockpick",
 		}
 	},
 })
@@ -143,7 +143,7 @@ exports.ox_target:addBoxZone({
 			icon = 'fa-solid fa-lock',
 			label = "Okdranij kasetke",
 			event = "napadnaskleprozpocznijclient",
-            item = "lockpick",
+            items = "lockpick",
 		}
 	},
 })
@@ -158,7 +158,7 @@ exports.ox_target:addBoxZone({
 			icon = 'fa-solid fa-lock',
 			label = "Okdranij kasetke",
 			event = "napadnaskleprozpocznijclient",
-            item = "lockpick",
+            items = "lockpick",
 		}
 	},
 })
@@ -173,7 +173,7 @@ exports.ox_target:addBoxZone({
 			icon = 'fa-solid fa-lock',
 			label = "Okdranij kasetke",
 			event = "napadnaskleprozpocznijclient",
-            item = "lockpick",
+            items = "lockpick",
 		}
 	},
 })
