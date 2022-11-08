@@ -9,8 +9,8 @@ AddEventHandler('astro-storerobbery:server:succes', function()
 end)
 
 RegisterNetEvent('astro-storerobbery:server:removeItem')
-AddEventHandler('astro-storerobbery:server:removeItem', function()
-	exports.ox_inventory:RemoveItem(source, 'lockpick', 1)
+AddEventHandler('astro-storerobbery:server:removeItem', function(item)
+	exports.ox_inventory:RemoveItem(source, item, 1)
 end)
 
 ESX.RegisterServerCallback('getPoliceCount', function(src, cb)
