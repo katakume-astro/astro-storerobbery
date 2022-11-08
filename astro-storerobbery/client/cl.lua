@@ -1,30 +1,25 @@
-GlobalState.obrabowany = false
+GlobalState = false
 
 function TimerThread()
-	GlobalState.obrabowany = true
-	local matematyka = math.random(900000, 1500000)
-    print(matematyka)
-	Citizen.Wait(matematyka)
-	GlobalState.obrabowany = false
+	GlobalState = true
+	local math = math.random(900000, 1500000)
+	Citizen.Wait(math)
+	GlobalState = false
 end
 -----------------------------------------------
 --              KONIEC                       --
 -----------------------------------------------
-RegisterNetEvent('napadnaskleprozpocznijclient')
-AddEventHandler('napadnaskleprozpocznijclient', function()
-    local state = GlobalState.obrabowany
+RegisterNetEvent('astro-storerobbery:client:start')
+AddEventHandler('astro-storerobbery:client:start', function()
+    local state = GlobalState
     ESX.TriggerServerCallback('getPoliceCount', function(policeCount)
-        print(policeCount)
         if policeCount > 0 then
-      
-        
-    if state == false then
+        if state == false then
             local skillcheck = lib.skillCheck({'easy', 'easy', 'easy', 'easy', 'easy', 'easy', 'easy', 'easy'})
-            
             if skillcheck then
                 FreezeEntityPosition(PlayerPedId(), true)
                 ExecuteCommand('me kitra pieniadze po kieszeniach')
-                -- TRIGGER NA DISPATCH
+                -- DISPATCH
                 if lib.progressBar({
                     duration = 56666, 
                     label = 'Zbierasz gotowke...', 
@@ -35,15 +30,15 @@ AddEventHandler('napadnaskleprozpocznijclient', function()
                 
                 then 
                     FreezeEntityPosition(PlayerPedId(), false)
-                    TriggerServerEvent("PowodzenieNapad")
+                    TriggerServerEvent("astro-storerobbery:server:succes")
                     TimerThread()
                 else 
                     FreezeEntityPosition(PlayerPedId(), false)
-                    TriggerServerEvent("napadzlewszytskozle")
+                    TriggerServerEvent("astro-storerobbery:server:removeItem")
                 end 
             else
                 FreezeEntityPosition(PlayerPedId(), false)
-                TriggerServerEvent("napadzlewszytskozle")
+                TriggerServerEvent("astro-storerobbery:server:removeItem")
             end
         else
             lib.defaultNotify({
