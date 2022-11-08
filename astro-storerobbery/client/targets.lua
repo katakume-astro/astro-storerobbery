@@ -7,7 +7,7 @@ exports.ox_target:addBoxZone({
 		{
 			icon = 'fa-solid fa-lock',
 			label = "Okdranij kasetke",
-			event = "napadnaskleprozpocznijclient",
+			event = "astro-storerobbery:client:start",
             items = "lockpick",
 		}
 	},
@@ -22,7 +22,7 @@ exports.ox_target:addBoxZone({
 		{
 			icon = 'fa-solid fa-lock',
 			label = "Okdranij kasetke",
-			event = "napadnaskleprozpocznijclient",
+			event = "astro-storerobbery:client:start",
             items = "lockpick",
 		}
 	},
@@ -37,7 +37,7 @@ exports.ox_target:addBoxZone({
 		{
 			icon = 'fa-solid fa-lock',
 			label = "Okdranij kasetke",
-			event = "napadnaskleprozpocznijclient",
+			event = "astro-storerobbery:client:start",
             items = "lockpick",
 		}
 	},
@@ -52,7 +52,7 @@ exports.ox_target:addBoxZone({
 		{
 			icon = 'fa-solid fa-lock',
 			label = "Okdranij kasetke",
-			event = "napadnaskleprozpocznijclient",
+			event = "astro-storerobbery:client:start",
             items = "lockpick",
 		}
 	},
@@ -67,7 +67,7 @@ exports.ox_target:addBoxZone({
 		{
 			icon = 'fa-solid fa-lock',
 			label = "Okdranij kasetke",
-			event = "napadnaskleprozpocznijclient",
+			event = "astro-storerobbery:client:start",
             items = "lockpick",
 		}
 	},
@@ -82,7 +82,7 @@ exports.ox_target:addBoxZone({
 		{
 			icon = 'fa-solid fa-lock',
 			label = "Okdranij kasetke",
-			event = "napadnaskleprozpocznijclient",
+			event = "astro-storerobbery:client:start",
             items = "lockpick",
 		}
 	},
@@ -97,7 +97,7 @@ exports.ox_target:addBoxZone({
 		{
 			icon = 'fa-solid fa-lock',
 			label = "Okdranij kasetke",
-			event = "napadnaskleprozpocznijclient",
+			event = "astro-storerobbery:client:start",
             items = "lockpick",
 		}
 	},
@@ -112,7 +112,7 @@ exports.ox_target:addBoxZone({
 		{
 			icon = 'fa-solid fa-lock',
 			label = "Okdranij kasetke",
-			event = "napadnaskleprozpocznijclient",
+			event = "astro-storerobbery:client:start",
             items = "lockpick",
 		}
 	},
@@ -127,7 +127,7 @@ exports.ox_target:addBoxZone({
 		{
 			icon = 'fa-solid fa-lock',
 			label = "Okdranij kasetke",
-			event = "napadnaskleprozpocznijclient",
+			event = "astro-storerobbery:client:start",
             items = "lockpick",
 		}
 	},
@@ -142,7 +142,7 @@ exports.ox_target:addBoxZone({
 		{
 			icon = 'fa-solid fa-lock',
 			label = "Okdranij kasetke",
-			event = "napadnaskleprozpocznijclient",
+			event = "astro-storerobbery:client:start",
             items = "lockpick",
 		}
 	},
@@ -157,7 +157,7 @@ exports.ox_target:addBoxZone({
 		{
 			icon = 'fa-solid fa-lock',
 			label = "Okdranij kasetke",
-			event = "napadnaskleprozpocznijclient",
+			event = "astro-storerobbery:client:start",
             items = "lockpick",
 		}
 	},
@@ -172,7 +172,7 @@ exports.ox_target:addBoxZone({
 		{
 			icon = 'fa-solid fa-lock',
 			label = "Okdranij kasetke",
-			event = "napadnaskleprozpocznijclient",
+			event = "astro-storerobbery:client:start",
             items = "lockpick",
 		}
 	},
