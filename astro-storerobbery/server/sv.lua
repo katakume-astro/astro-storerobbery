@@ -13,7 +13,7 @@ AddEventHandler('astro-storerobbery:server:removeItem', function()
 	exports.ox_inventory:RemoveItem(source, 'lockpick', 1)
 end)
 
-ESX.RegisterServerCallback('getPoliceCount', function(src, cb)
+ESX.RegisterServerCallback('getPoliceCount', function(src, cb) -- esx discord
 	local policeTable = ESX.GetExtendedPlayers("job", "police")
 	local policeCount = 0
   
