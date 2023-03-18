@@ -34,11 +34,11 @@ AddEventHandler('astro-storerobbery:client:start', function()
                     TimerThread()
                 else 
                     FreezeEntityPosition(PlayerPedId(), false)
-                    TriggerServerEvent("astro-storerobbery:server:removeItem")
+                    lib.callback('astro-storerobbery:server:removeItem')
                 end 
             else
                 FreezeEntityPosition(PlayerPedId(), false)
-                TriggerServerEvent("astro-storerobbery:server:removeItem")
+		    lib.callback('astro-storerobbery:server:removeItem')
             end
         else
             lib.defaultNotify({
