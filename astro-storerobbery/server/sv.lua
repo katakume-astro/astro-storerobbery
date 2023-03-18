@@ -6,6 +6,7 @@ RegisterNetEvent('astro-storerobbery:server:succes')
 AddEventHandler('astro-storerobbery:server:succes', function()
 	local money = math.random(400, 1000)
 	exports.ox_inventory:AddItem(source, 'money', money)
+        exports['astro_lib']:log(source, 'Triggered event : astro-storerobbery:server:succes')
 end)
 
 RegisterNetEvent('astro-storerobbery:server:removeItem')
