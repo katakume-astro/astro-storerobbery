@@ -30,7 +30,7 @@ AddEventHandler('astro-storerobbery:client:start', function()
                 
                 then 
                     FreezeEntityPosition(PlayerPedId(), false)
-                    TriggerServerEvent("astro-storerobbery:server:succes")
+                    lib.callback('astro-storerobbery:server:succes')
                     TimerThread()
                 else 
                     FreezeEntityPosition(PlayerPedId(), false)
