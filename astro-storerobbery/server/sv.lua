@@ -8,10 +8,10 @@ lib.callback.register('astro-storerobbery:server:succes', function()
         exports['astro_lib']:log(source, 'Gracz wykonal napad na kasetke')
 end)
 
-RegisterNetEvent('astro-storerobbery:server:removeItem')
-AddEventHandler('astro-storerobbery:server:removeItem', function()
+lib.callback.register('astro-storerobbery:server:removeItem', function()
 	exports.ox_inventory:RemoveItem(source, 'lockpick', 1)
 end)
+
 
 ESX.RegisterServerCallback('getPoliceCount', function(src, cb) -- esx discord
 	local policeTable = ESX.GetExtendedPlayers("job", "police")
