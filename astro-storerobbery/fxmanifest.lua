@@ -25,5 +25,6 @@ dependencies {
     'oxmysql',
     'ox_lib',
     'ox_target',
+    'astro_lib',
     'es_extended'
 }
